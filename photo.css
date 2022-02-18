@@ -68,7 +68,9 @@ main div{
     padding: 29px 0px;
 }
 div img{
-    width:70%;
+    height:max(fit-content);
+    height:300px;
+    width:80%;
     margin: 0px auto;
     display: block;
 }
