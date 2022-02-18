@@ -51,11 +51,12 @@ h2{
 .seperator{
     height: 3.6rem;
     width: inherit;
-    background-color:snow;
+    background-color:gray;
 
 }
 
 main{
+    background-color:gray;
     width: inherit;
     align-content: center;
     align-items: center;
@@ -68,9 +69,7 @@ main div{
     padding: 29px 0px;
 }
 div img{
-    height:max(fit-content);
-    height:300px;
-    width:80%;
+    width:74%;
     margin: 0px auto;
     display: block;
 }
