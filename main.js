@@ -27,3 +27,12 @@ prev = function(){
 }
 
 
+const image = document.querySelector('img')
+
+function fullSize(){
+     image.style.width='100%';
+     image.style.height='80%';
+}
+
+
+image.addEventListener('click',fullSize());
